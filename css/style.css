@@ -178,7 +178,7 @@ main .sobre-nosotros{
     transform: scale(1);
 }
 
-/* Clients */
+/* Nosotras */
 
 .cards{
     display: flex;
@@ -194,6 +194,7 @@ main .sobre-nosotros{
     justify-content: space-evenly;
     border-radius: 5px;
     box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.6);
+    
 }
 
 .cards .card img{
