@@ -462,3 +462,60 @@ footer{
 }
 
 
+.nuestros-programas{
+    background-color: rgba(255, 255, 255, 0);
+    text-align: center;
+ }
+ 
+ #nuestros-programas .container{
+    padding: 150px 12px;
+   
+ }
+ 
+ #nuestros-programas h2{
+    margin-top: 0;
+ }
+ 
+ #nuestros-programas p{
+    display: none;
+ }
+ 
+ #nuestros-programas .carta{
+ 
+ }
+ 
+ .carta:first-child{
+    background-color: rgba(148, 0, 211, 0.461);
+   
+ }
+ .carta:nth-child(2){
+    background-color: rgba(148, 0, 211, 0.461);
+ 
+ }
+ 
+ .carta:nth-child(3){
+    background-color: rgba(148, 0, 211, 0.461);
+ }
+ 
+ .extraa{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 10vh;
+    color: whitesmoke;
+    background-image: linear-gradient(
+       0deg,
+       rgba(200, 117, 211, 0.757),
+       rgb(200, 117, 211, 0.757)
+    ) 
+ 
+    ,url(../img/lila\ fondo\ 2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+ }
+ #extraa h2{
+    color: rgb(213, 3, 240);
+ }
