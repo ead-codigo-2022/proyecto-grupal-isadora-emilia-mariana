@@ -511,3 +511,27 @@ HEAD
 
   }
 
+/*contenedor img porte*/
+
+.contenedor-sobre-nosotros-imagen img{
+    width: 500px;
+    height: 400px;
+}
+main .sobre-nosotros-imagen{
+    padding: 30px 0 60px 0;
+}
+.contenedor-sobre-nosotros-imagen{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.imagen-about-us{
+    width: 48%;
+    border-radius: 2%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.sobre-nosotros-imagen .contenido-textos{
+    width: 48%;
+}
