@@ -424,4 +424,41 @@ footer{
     .titulo-final{
         font-size: 20px;
     }
-}
+
+.container {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+  }
+  .services {
+    padding: 3rem 0;
+  }
+
+
+  .services__body {
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap:50px;
+    row-gap: 50px;
+    margin-bottom: 50px;
+  }
+
+  .service__link {
+    color: var(--color-text);
+    font-size: small;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  .services__footer {
+    text-align: center;
+    color: grey;
+    background-color: var(--color-primary);
+    border-radius: 32px;
+  }
+  }
+
+  .container {
+    display: flex;
+
+  }
