@@ -599,3 +599,50 @@ main .sobre-nosotros-imagen{
    
 }
 
+/*estilo index 5*/
+
+.cajas{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cajas .caja{
+    background: #30423c;
+    display: flex;
+    width: 500px;
+    height: 300px;
+    align-items: left;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.6);
+    margin-right: 2%;
+    margin-left: 2%;
+    
+}
+
+.cajas .caja img{
+    display: none;
+}
+
+.cajas .caja > .contenido-texto-caja{
+    width: 80%;
+    color: #fff;
+    margin-top: 5%;
+   
+}
+
+.cajas .caja > .contenido-texto-caja p{
+    font-weight: 100px;
+    font-size:small;
+    padding-top: 5px;
+    text-align: left;
+
+}
+
+/*estilo index 8*/
+
+.video{
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: #C7BFCF;
+  }
