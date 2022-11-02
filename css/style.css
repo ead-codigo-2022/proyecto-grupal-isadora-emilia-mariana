@@ -523,9 +523,8 @@ HEAD
   }
 
   .service__link {
-    color: var(--color-text);
+    color: white;
     font-size: small;
-    font-family: 'Courier New', Courier, monospace;
   }
   .services__footer {
     text-align: center;
@@ -607,7 +606,7 @@ main .sobre-nosotros-imagen{
 }
 
 .cajas .caja{
-    background: #30423c;
+    background: #398d6f;
     display: flex;
     width: 500px;
     height: 300px;
@@ -638,4 +637,42 @@ main .sobre-nosotros-imagen{
     text-align: left;
 
 }
+
+.tt{
+    font-weight: bolder;
+    font-size: 60px;
+    text-align: center;
+    margin-left: 5%;
+    color: #2a7359;
+      
+  }
+  
+  .texto-mad{
+    text-align: left;
+    font-size: 25px;
+    margin-left: 5%;
+    margin-right: 5%;    
+  }
+  
+  .pregunta {
+    margin-left: 5%;
+    font-size: 25px;
+    text-align: left;
+    font-weight: bold;  
+    color: #2a7359;
+  }
+  
+  .texto{
+    margin-left: 5%; 
+    margin-right: 5%;
+  }
+  
+  .efectos{
+    margin-left: 5%;
+    font-size: 20px;
+    text-align: left;
+    font-weight: bold; 
+    color: #2a7359;
+  }
+
 
